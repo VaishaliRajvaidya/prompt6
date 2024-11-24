@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    background-color: aquamarine;
+    height: 100%;
+}
+.poster
+{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 5px;
+    position: relative;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position: absolute;
+    top: 45px;
+    left: 150px;font-size: 40px;
+
+}
+
+.footer>h2{
+    justify-content:left;
+    text-align: left;
+    align-items: left;
+    
+    position: absolute;
+    top: 45px;
+    left: 5px;
+
+}
+.footer>h3{
+    position: absolute;
+    top: 45px;
+    left: 550px;
+    justify-content:left;
+    text-align: left;
+    align-items: left;
+    
+}
+.footer>h4{
+    position: absolute;
+    top: 45px;
+    left: 1000px;
+    justify-content:left;
+    text-align: left;
+    align-items: left;
+    
+
+}
+h5
+{
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    font-size: medium;
+
+
+}.footer{
+    width: 99%;
+    background-color: black;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    justify-content:left;
+    text-align: left;
+    align-items: left;
+    color: aliceblue;
+}
+.img{
+    width: 500px;
+    height: 40px;
+     border-radius: 50%;
+     position: absolute;
+     top: 10%;
+     left: 35%;
+    }.img>img{
+        border-radius: 50%;
+        height: 350px;
+        width: 350px;
+    }
+    button
+    {
+        position: absolute;
+        top: 425px;
+        left:50%;
+        background-color: blue;
+    }
+    p{
+        position: absolute;
+        top: 450px;
+        left: 20%;
+    }
